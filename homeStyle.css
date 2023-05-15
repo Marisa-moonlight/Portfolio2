@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+}
+body{
+    background-color: #041F60;
+}
+a{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin: 10px;
+  text-decoration: none;
+}
+h1{
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      animation: glow 1s ease-in-out infinite alternate;
+      margin: 10px;
+  }
+  
+  @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2CEEF0, 0 0 40px #2CEEF0, 0 0 50px #2CEEF0, 0 0 60px #2CEEF0, 0 0 70px #2CEEF0;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #62e5e8, 0 0 40px #62e5e8, 0 0 50px #62e5e8, 0 0 60px #62e5e8, 0 0 70px #62e5e8, 0 0 80px #62e5e8;
+      }
+    }
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2cedf07e;
+    
+}
+.grid-item {
+    font-size: 30px;
+    border: black solid 15px;
+  }
+.space{
+  padding: 20px;
+}
+img{
+    border: ridge orange 10px;
+    display: flex;
+}
+img:hover{
+  box-shadow: 0 0 10px #fff, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+}
+.fa-certificate{
+  color: gold;
+}
+.certifided{
+    background-color: rgba(255, 166, 0, 0.449);
+    padding: 5px;
+}
+.achivements{
+  background-color: #2cedf07e;
+}
+.skills{
+  background-color: #ff0bae7e;
+}
+.about{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.item{
+  border: solid black 5px;
+  padding: 5px;
+}
+.history{
+
+}
+.job{
+  text-align: center;
+  background-color: rgba(0, 255, 0, 0.504);
+  display: inline-block;
+  text-align: left;
+  padding: 5px;
+}
+.education{
+  background-color: rgba(255, 166, 0, 0.449);
+}
+.buttonType{
+  margin: 30px;
+}
+.top{
+  border: solid 10px orange;
+  background-color: orange;
+  padding: 5px;
+}
+.work{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2cedf07e;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 50px;
+  margin: 30px;
+}
+.buttonBox{
+  width: fit-content;
+  height: fit-content;
+}
+.gridBox{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+button{
+  border: orange solid 7px;
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+  background-color: #2CEEF0;
+  color: #041F60;
+  font-size: 25px;
+}
+button:hover{
+background-color: #62e5e8;
+border: rgb(255, 199, 95) solid 7px;
+color: white;
+box-shadow: 0 0 50px cyan;
+}
+.buttonBox:hover{
+  box-shadow: 0 0 100px orange;
+}
+footer{
+  margin-top: 20px;
+}
+.program{
+  background-color: #2cedf07e;
+}
+.exp{
+  background-color: #ff0bae7e
+}
